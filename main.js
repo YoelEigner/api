@@ -6,7 +6,7 @@ const cors = require('cors');
 var bodyParser = require('body-parser');
 const { mongoConnect } = require('./MongoDBConnect');
 
-const port = 3000;
+const port = 3001;
 
 app.use(cors());
 app.use(bodyParser.json());
