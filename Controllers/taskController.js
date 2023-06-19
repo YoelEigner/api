@@ -2,8 +2,6 @@ const { ObjectId } = require('mongodb')
 const { mongoClient } = require('../MongoDBConnect') 
 const Task = require('../Modals/TaskModal') 
 
-// Create a new task
-
 const db = mongoClient.db('tasks') 
 const collection = db.collection('task') 
 
